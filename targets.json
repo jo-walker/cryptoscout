@@ -1,0 +1,25 @@
+{
+    "timeoutSeconds": 30,
+"source": [ 
+            {
+                "host": "badssl.com",
+                "port": 443
+            },  
+            {
+                "host": "expired.badssl.com",
+                "port": 443
+            },
+            {
+                "host": "self-signed.badssl.com",
+                "port": 443
+            },
+            {
+                "host": "wrong.host.badssl.com",
+                "port": 443
+            },  
+            {
+                "host": "go.dev",
+                "port": 443
+            }
+        ]
+    }

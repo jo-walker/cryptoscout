@@ -1,0 +1,16 @@
+# build output
+/cryptoscout
+*.exe
+/dist/
+
+# test and coverage output
+*.out
+coverage.*
+
+# local scan configs (keep real hostnames out of the public repo)
+*.local.json
+
+# local session handoff notes
+HANDOFF.md
+CLAUDE.md
+MILESTONES.md
